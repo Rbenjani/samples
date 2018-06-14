@@ -1,0 +1,5 @@
+<h4>Capitales</h4>
+<p-autoComplete [(ngModel)]="text" [suggestions]="autoFilterList" (completeMethod)="search($event)"></p-autoComplete>
+
+<h4>Capitales (with dropdown)</h4>
+<p-autoComplete [(ngModel)]="text" [suggestions]="autoFilterList" (completeMethod)="search($event)" [dropdown]="true"></p-autoComplete>

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /* Hacemos font-size a 62.5% para que 1 rem = 10px */
+    font-size: 62.5%;
+}
+
+.flag-container {
+    float: left;
+    margin: 1.5rem;
+}
+
+.flag-container > h4 {
+    font-size: 1.6rem;
+    margin: 0 0 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.flag-container > div {
+    width: 20rem;
+    height: 10rem;
+    border: 1px solid black;
+    box-shadow: 0 0rem 1.5rem rgba(0, 0, 0, 0.8);
+}
+
+.flag-multi-container {
+    position: relative;
+}
+
+/* Afghanistan */
+#flag-afghanistan {
+    background-image: linear-gradient(
+        to right,
+        #000 33.3%,
+        #cf1e1a 33.3%,
+        #cf1e1a 66.6%,
+        #147a3b 66.6%
+    );
+}
+/* Albania */
+#flag-albania {
+    background-color: #e01422;
+}
+/* Algeria */
+#flag-algeria {
+    background-image: linear-gradient(to right, #16843f 50%, #fff 50%);
+}
+/* Andorra */
+#flag-andorra {
+    background-image: linear-gradient(
+        to right,
+        #0d15a4 33.3%,
+        #fcdf3a 33.3%,
+        #fcdf3a 66.6%,
+        #d41941 66.6%
+    );
+}
+/* Angola */
+#flag-angola {
+    background-image: linear-gradient(#c80331 50%, #000 50%);
+}
+/* Antigua and barbuda */
+#flag-antigua-and-barbuda-base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: linear-gradient(
+        #000 35%,
+        #1c72c2 35%,
+        #1c72c2 60%,
+        #fff 60%
+    );
+}
+#flag-antigua-and-barbuda-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(45deg, #ca0c2a 33%, transparent 33%),
+        linear-gradient(135deg, transparent 67%, #ca0c2a 67%);
+}
+/* Armenia */
+#flag-armenia {
+    background-image: linear-gradient(
+        #d60016 33.3%,
+        #0e2e9e 33.3%,
+        #0e2e9e 66.6%,
+        #efaa2c 66.6%
+    );
+}
+/* Argentina */
+#flag-argentina {
+    background-image: linear-gradient(
+        #79addd 33.3%,
+        #fff 33.3%,
+        #fff 66.6%,
+        #79addd 66.6%
+    );
+}
